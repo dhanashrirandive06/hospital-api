@@ -1,0 +1,33 @@
+{
+  "name": "hospital-api",
+  "version": "1.0.0",
+  "description": "Hospital API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhanashrirandive06/hospital-api.git"
+  },
+  "keywords": [
+    "Hospital",
+    "API"
+  ],
+  "author": "Dhanashri Randive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhanashrirandive06/hospital-api/issues"
+  },
+  "homepage": "https://github.com/dhanashrirandive06/hospital-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.4",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
