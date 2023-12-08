@@ -21,6 +21,6 @@ Follow these steps to get started with the alarm clock code:
     git clone https://github.com/dhanashrirandive06/hospital-api.git
 2. **Navigate to the Project Directory**: Move to the project directory:
     cd hospital-api
-3. **Run the Code By Following Command** 
-    npm install
-    npm start
+3. **Run the Code By Following Command** :
+    - npm install
+    - npm start
