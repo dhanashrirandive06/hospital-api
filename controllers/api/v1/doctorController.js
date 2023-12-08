@@ -22,7 +22,7 @@ module.exports.register = async (req, res, next) => {
 
       return res.status(200).json({
         message: "Doctor Register Successfully",
-        doctor: user,
+        doctor: newDoctor,
       });
     }
     return res.status(200).json({
